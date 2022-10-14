@@ -1,0 +1,92 @@
+body {
+	font-family: 'PT Sans', sans-serif;
+	background-color: #D6C63E;
+	margin: 0;
+	color: #000;
+	line-height: 1.4;
+}
+a {
+	text-decoration: none;
+	color: #131049;
+}
+#showcase {
+	margin: 0;
+	padding: 0;
+	background: url('photos.jpg') no-repeat center/cover;
+	width: 100%;
+	height: 100vh;
+	position: relative;
+	overflow-y: hidden;
+}
+#showcase .container {
+	margin-top: 25vh;
+}
+#showcase h1 {
+	font-size: 3.5rem;
+	margin-bottom: 0;
+}
+nav {
+	height: 40px;
+	width: 100%;
+	background-color: #DCA524;
+	position: fixed;
+	color: rgb(12, 40, 40);
+}
+nav ul {
+	margin: 0;
+	padding: 0;
+}
+nav li {
+	display: inline;
+	float: left;
+	width: 8%;
+}
+nav a {
+	display: inline-block;
+	width: 100%;
+	text-align: center;
+	text-decoration: none;
+	padding: 10px 0;
+	color: black;
+}
+nav li:hover {
+	background-color: #888437;
+	padding-center: 1rem;
+}
+.container {
+	max-width: 1180px;
+	text-align: center;
+	margin: 0;
+	padding: 0 3rem;
+	font-size: 20px;
+}
+.container a{
+	color: navyblue;
+}
+.lead {
+	font-size: 1.3 rem;
+}
+footer .footer-cols {
+	display: grid;
+	grid-gap: 20px;
+	grid-template-columns: repeat(6, 1fr);
+	padding: 2rem;
+	text-align: left;
+	font-size: 18px;
+}
+footer .footer-cols ul{
+	list-style: none;
+}
+
+footer .footer-cols ul li: first-child{
+	font-size: 1.4 rem;
+	padding-bottom: 0.5 rem;
+	border-bottom: #DED526 solid 2px;
+	margin-bottom: 1rem;
+}
+
+footer .footer-bottom {
+	background-color: #DCA524;
+	padding: 1rem;
+	text-align: center;
+}
